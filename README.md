@@ -17,7 +17,7 @@ Simple rewarded ads earning app using AdMob.
 * 👥 User Account System
 * 🎁 Referral System
 * 📅 Daily Tasks
-* 💸 Withdraw System (bKash / PayPal)
+* 💸 Withdraw System (bKash / Webmoney/Binance
 * 🏆 Leaderboard
 
 ---

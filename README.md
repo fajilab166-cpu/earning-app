@@ -19,7 +19,7 @@ Starter implementation for a Telegram bot + Mini App using Monetag, AdsGram, Sup
 1. Create a Supabase project and run supabase/schema.sql in SQL Editor.
 2. Import this repository into Vercel.
 3. Add all values from .env.example as Vercel Environment Variables. Keep service-role keys and bot tokens server-only.
-4. Copy the exact Monetag SDK script URL from your publisher dashboard into MONETAG_SDK_URL; set the main zone ID in MONETAG_ZONE_ID.
+4. The provided Monetag SDK URL and Zone ID are prefilled in .env.example. Confirm these values in your publisher dashboard before production.
 5. Set WEBAPP_URL to your deployed HTTPS origin.
 6. Set Telegram webhook: https://api.telegram.org/botTOKEN/setWebhook?url=https://YOUR_DOMAIN/api/webhook&secret_token=YOUR_TELEGRAM_WEBHOOK_SECRET. URL-encode values as needed.
 7. In Monetag SSP, set the postback URL to: https://YOUR_DOMAIN/api/monetag-postback?secret=YOUR_MONETAG_POSTBACK_SECRET&ymid={ymid}&event_type={event_type}&reward_event_type={reward_event_type}&zone_id={zone_id}&estimated_price={estimated_price}
